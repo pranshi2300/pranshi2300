@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      width="700"
-     height="330"
-     viewBox="0 0 700 330">
+     height="410"
+     viewBox="0 0 700 410">
 
   <style>
     .line {
@@ -16,6 +16,8 @@
     .l5 { animation-delay: 1.5s; }
     .l6 { animation-delay: 1.8s; }
     .l7 { animation-delay: 2.1s; }
+    .l8 { animation-delay: 2.4s; }
+    .l9 { animation-delay: 2.7s; }
 
     @keyframes fadeIn {
       from {
@@ -33,22 +35,24 @@
     }
   </style>
 
+  <!-- Terminal window -->
   <rect
     x="5"
     y="5"
     width="690"
-    height="320"
+    height="400"
     rx="12"
     fill="#0d1117"
     stroke="#30363d"
     stroke-width="2"
   />
 
-  <!-- Terminal header -->
+  <!-- Terminal buttons -->
   <circle cx="28" cy="28" r="6" fill="#ff5f56"/>
   <circle cx="48" cy="28" r="6" fill="#ffbd2e"/>
   <circle cx="68" cy="28" r="6" fill="#27c93f"/>
 
+  <!-- Terminal title -->
   <text
     x="95"
     y="34"
@@ -67,7 +71,7 @@
     $ neofetch
   </text>
 
-  <!-- Name -->
+  <!-- Username -->
   <text
     class="line l2"
     x="30"
@@ -77,95 +81,138 @@
     pranshi2300
   </text>
 
+  <!-- Divider -->
   <text
     class="line l3"
     x="30"
     y="145"
     font-size="15"
-    fill="#c9d1d9">
+    fill="#8b949e">
     ─────────────────────────────
   </text>
 
-  <!-- Information -->
+  <!-- Role -->
   <text
     class="line l4"
     x="30"
     y="180"
-    font-size="16"
+    font-size="15"
     fill="#39d353">
     Role:
   </text>
 
   <text
     class="line l4"
-    x="105"
+    x="120"
     y="180"
-    font-size="16"
+    font-size="15"
     fill="#c9d1d9">
-    Developer
+    Computer Science Student
   </text>
 
+  <!-- Focus -->
   <text
     class="line l5"
     x="30"
     y="210"
-    font-size="16"
+    font-size="15"
     fill="#39d353">
     Focus:
   </text>
 
   <text
     class="line l5"
-    x="105"
+    x="120"
     y="210"
-    font-size="16"
+    font-size="15"
     fill="#c9d1d9">
-    Software &amp; Computer Science
+    Software Development
   </text>
 
+  <!-- Languages -->
   <text
     class="line l6"
     x="30"
     y="240"
-    font-size="16"
+    font-size="15"
     fill="#39d353">
-    Stack:
+    Languages:
   </text>
 
   <text
     class="line l6"
-    x="105"
+    x="120"
     y="240"
-    font-size="16"
+    font-size="15"
     fill="#c9d1d9">
     C++ · Java · Python · JavaScript
   </text>
 
+  <!-- Interests -->
   <text
     class="line l7"
     x="30"
     y="270"
-    font-size="16"
+    font-size="15"
+    fill="#39d353">
+    Interests:
+  </text>
+
+  <text
+    class="line l7"
+    x="120"
+    y="270"
+    font-size="15"
+    fill="#c9d1d9">
+    DSA · DBMS · Networks · Compilers
+  </text>
+
+  <!-- Projects -->
+  <text
+    class="line l8"
+    x="30"
+    y="300"
+    font-size="15"
+    fill="#39d353">
+    Projects:
+  </text>
+
+  <text
+    class="line l8"
+    x="120"
+    y="300"
+    font-size="15"
+    fill="#c9d1d9">
+    RoomCraft · FinMate
+  </text>
+
+  <!-- Tools -->
+  <text
+    class="line l9"
+    x="30"
+    y="330"
+    font-size="15"
     fill="#39d353">
     Tools:
   </text>
 
   <text
-    class="line l7"
-    x="105"
-    y="270"
-    font-size="16"
+    class="line l9"
+    x="120"
+    y="330"
+    font-size="15"
     fill="#c9d1d9">
-    React · Node · Git · GitHub
+    Git · GitHub · React · Node
   </text>
 
+  <!-- Status -->
   <text
-    class="line l7"
+    class="line l9"
     x="30"
-    y="300"
+    y="370"
     font-size="14"
     fill="#8b949e">
-    Status: building things &amp; learning 🚀
+    Status: learning &amp; building 🚀
   </text>
 
 </svg>
