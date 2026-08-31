@@ -211,7 +211,7 @@
     },
     {
       "date": "2026-08-30",
-      "level": 0
+      "level": 3
     },
     {
       "date": "2025-09-01",
@@ -420,6 +420,10 @@
     {
       "date": "2026-08-24",
       "level": 4
+    },
+    {
+      "date": "2026-08-31",
+      "level": 0
     },
     {
       "date": "2025-09-02",
@@ -1462,7 +1466,7 @@
       "level": 2
     }
   ],
-  "total_days": 365,
+  "total_days": 366,
   "current_streak": 2,
   "longest_streak": 2,
   "best_day": {
